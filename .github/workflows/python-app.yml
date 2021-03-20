@@ -10,7 +10,7 @@ on:
     branches: [ master ]
   schedule:
   # 定时任务，在每天的1点推送
-    - cron: '1 17 * * *'
+    - cron: '1 16 * * *'
 
 jobs:
   build:
