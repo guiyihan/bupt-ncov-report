@@ -9,8 +9,8 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-  # 定时任务，在每天的5点推送
-    - cron: '1 16 * * *'
+  # 定时任务，在每天的1点推送
+    - cron: '1 17 * * *'
 
 jobs:
   build:
